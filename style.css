@@ -1,0 +1,34 @@
+.red{
+    background-color:lightpink;
+}
+.blue{
+    background-color: lightblue;
+}
+body{
+    transition: 1s;
+}
+.box{
+    img{
+        width: 50%;
+    }
+}
+.open{
+    display: block;
+}
+.close{
+    display: none;
+}
+.anim{
+        animation: anim 2s infinite linear;
+}
+.anim{
+    animation: anim 2s infinite linear;
+}
+@keyframes anim {
+    0%{
+         rotate:0deg;
+    }
+    100%{
+        rotate:360deg;
+    }
+}
